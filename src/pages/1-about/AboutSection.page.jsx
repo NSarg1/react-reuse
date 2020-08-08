@@ -35,9 +35,21 @@ const AboutSection = () => {
                 </div>
                 <div className="col-1-of-2">
                     <div className="composition">
-                        <img src={nat1Large} alt="nat-1" className="composition__photo composition__photo--p1" />
-                        <img src={nat2Large} alt="nat-2" className="composition__photo composition__photo--p2" />
-                        <img src={nat3Large} alt="nat-3" className="composition__photo composition__photo--p3" />
+                        <img
+                            src={nat1Large}
+                            alt="nat-1"
+                            className="composition__photo composition__photo--p1"
+                        />
+                        <img
+                            src={nat2Large}
+                            alt="nat-2"
+                            className="composition__photo composition__photo--p2"
+                        />
+                        <img
+                            src={nat3Large}
+                            alt="nat-3"
+                            className="composition__photo composition__photo--p3"
+                        />
                     </div>
                 </div>
             </div>

@@ -10,12 +10,12 @@ const Header = () => {
             </div>
             <div className="header__text-box">
                 <h1 className="heading-primary">
-                    <span className="heading-primary--main">Outdoors</span>
-                    <span className="heading-primary--sub">is where life happens</span>
+                    <span className="heading-primary--main">React-Reuse</span>
+                    <span className="heading-primary--sub">Improve life quality</span>
                 </h1>
 
                 <div href="#" className="btn btn--white btn--animated">
-                    Discover our tours
+                    Discover our mission
                 </div>
             </div>
         </header>
