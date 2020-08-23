@@ -2,7 +2,14 @@ import React from "react";
 
 import LogoWhite from "assets/img/logo-white.png";
 
-const Header = () => {
+const Header = (props) => {
+    const { aboutSectionRef } = props;
+
+    const handleClick = () => {
+        aboutSectionRef.current.scrollIntoView({
+            block: "center",
+        });
+    };
     return (
         <header className="header">
             <div className="header__logo-box">
@@ -14,7 +21,7 @@ const Header = () => {
                     <span className="heading-primary--sub">Improve life quality</span>
                 </h1>
 
-                <div href="#" className="btn btn--white btn--animated">
+                <div href="#" className="btn btn--white btn--animated" onClick={handleClick}>
                     Discover our mission
                 </div>
             </div>

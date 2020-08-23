@@ -4,9 +4,9 @@ import nat1Large from "assets/img/nat-1-large.jpg";
 import nat2Large from "assets/img/nat-2-large.jpg";
 import nat3Large from "assets/img/nat-3-large.jpg";
 
-const AboutSection = () => {
+const AboutSection = React.forwardRef((props, ref) => {
     return (
-        <section className="section-about">
+        <section className="section-about" ref={ref}>
             <div className="u-center-text u-margin-bottom-big">
                 <h2 className="heading-secondary">Exciting tours for adventurous people</h2>
             </div>
@@ -55,6 +55,6 @@ const AboutSection = () => {
             </div>
         </section>
     );
-};
+});
 
 export default AboutSection;
